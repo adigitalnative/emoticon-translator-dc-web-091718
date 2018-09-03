@@ -31,7 +31,7 @@ def get_english_meaning(file, emoticon)
   library = load_library(file)
   
   if library["get_meaning"][emoticon]
-    library["get_emoticon"][emoticon]
+    library["get_meaning"][emoticon]
   else
     "Sorry, that emoticon was not found"
   end
